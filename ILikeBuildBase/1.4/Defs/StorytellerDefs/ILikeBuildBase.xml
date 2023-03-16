@@ -158,10 +158,16 @@
           <!-- Ship Chunks Drop -->
           <li Class="StorytellerCompProperties_OnOffCycle">
             <incident>ShipChunkDrop</incident>
-            <onDays>2</onDays>
+            <onDays>5</onDays>
             <offDays>1</offDays>
             <numIncidentsRange>1</numIncidentsRange>
           </li>
+		  <li Class="StorytellerCompProperties_OnOffCycle">
+			  <incident>MeteoriteImpact</incident>
+			  <onDays>1</onDays>
+			  <offDays>0.5</offDays>
+			  <numIncidentsRange>1</numIncidentsRange>
+		  </li>
           <!-- Triggered -->
           <li Class="StorytellerCompProperties_Triggered">
             <incident>StrangerInBlackJoin</incident>
