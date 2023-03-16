@@ -17,6 +17,12 @@
         <li>20, 2.0</li>
       </points>
     </populationIntentFactorFromPopCurve>
+		<populationIntentFactorFromPopAdaptDaysCurve>
+			<points>
+				<li>( 0, 0)</li>
+				<li>( 20, 1)</li>
+			</points>
+		</populationIntentFactorFromPopAdaptDaysCurve>
     <comps>
         <!-- Home threats -->
         <li Class="StorytellerCompProperties_OnOffCycle">
